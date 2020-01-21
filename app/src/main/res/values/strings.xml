@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Discovery Group</string>
 
-    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="title_activity_home_screen">Discovery Group</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="questions_discovery_process">* 7 questions of the discovery process</string>
@@ -11,4 +11,15 @@
     <string name="disciple_maker">Disciple Maker!</string>
     <string name="discover_button">DISCOVER</string>
     <string name="create_new_account">create new account</string>
+    <string name="title_activity_menu_list">Discovery Group</string>
+    <string name="training_and_tips">Training and Tips</string>
+    <string name="discovery_process">Discovery Process</string>
+    <string name="reading_plans">Reading Plans</string>
+    <string name="feedback">Feedback</string>
+    <string name="title_activity_training_and_tips">Training And Tips</string>
+    <string name="start">START</string>
+    <string name="next">NEXT</string>
+    <string name="tip_title">TIP 1</string>
+    <string name="tip_sample_1">Do not allow one person to teach or explain</string>
+    <string name="skip">SKIP</string>
 </resources>

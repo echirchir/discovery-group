@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_weight="4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="10dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="10dp"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:paddingBottom="10dp"
+    android:background="@drawable/rectangle_1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:id="@+id/training_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/training_and_tips"
+            android:layout_weight=".8"
+            android:drawableLeft="@drawable/activity_icon"
+            android:textAllCaps="false"
+            android:padding="30dp"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="14dp"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:textColor="#a6aff1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:paddingTop="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".2"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:background="#fff"
+        android:layout_marginEnd="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/discovery_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:text="@string/discovery_process"
+            android:drawableLeft="@drawable/tasks_icon"
+            android:textAllCaps="false"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="14dp"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:clickable="true"
+            android:padding="30dp"
+            android:textColor="#a6aff1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:paddingTop="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".2"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:background="#fff"
+        android:layout_marginEnd="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/reading_plans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/reading_plans"
+            android:layout_weight=".8"
+            android:drawableLeft="@drawable/settings_icon"
+            android:textAllCaps="false"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="14dp"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:clickable="true"
+            android:padding="30dp"
+            android:textColor="#a6aff1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:paddingTop="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".2"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:background="#fff"
+        android:layout_marginEnd="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback"
+            android:layout_weight=".8"
+            android:drawableLeft="@drawable/logout_icon"
+            android:textAllCaps="false"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="14dp"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:clickable="true"
+            android:padding="30dp"
+            android:textColor="#a6aff1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:paddingTop="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".2"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:background="#fff"
+        android:layout_marginEnd="30dp"/>
+</LinearLayout>

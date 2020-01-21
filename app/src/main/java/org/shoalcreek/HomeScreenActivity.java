@@ -1,9 +1,11 @@
 package org.shoalcreek;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -58,6 +60,16 @@ public class HomeScreenActivity extends AppCompatActivity {
 
         mVisible = true;
         mContentView = findViewById(R.id.full_screen_content);
+
+        Button discover = findViewById(R.id.discover);
+
+        discover.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity( new Intent( HomeScreenActivity.this, MenuListActivity.class));
+            }
+        });
 
     }
 
