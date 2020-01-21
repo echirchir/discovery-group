@@ -17,9 +17,21 @@
     <string name="reading_plans">Reading Plans</string>
     <string name="feedback">Feedback</string>
     <string name="title_activity_training_and_tips">Training And Tips</string>
-    <string name="start">START</string>
+    <string name="start">FINISH</string>s
     <string name="next">NEXT</string>
     <string name="tip_title">TIP 1</string>
     <string name="tip_sample_1">Do not allow one person to teach or explain</string>
     <string name="skip">SKIP</string>
+    <string name="tip_2">TIP 2</string>
+    <string name="tip_sample_2">A good facilitator does not give answers, but asks  good questions</string>
+    <string name="tip_3">TIP 3</string>
+    <string name="tip_sample_3">Give everyone a chance to share even if you  have to call on people to share</string>
+    <string name="tip_4">TIP 4</string>
+    <string name="tip_sample_4">Don’t only read the passages, put them into  practice-Obedience is the goal!</string>
+    <string name="tip_5">TIP 5</string>
+    <string name="tip_sample_5">Share with other people what you are learning about your life with God</string>
+    <string name="tip_6">TIP 6</string>
+    <string name="tip_sample_6">Meet practical needs in the group and in the community</string>
+    <string name="tip_7">TIP 7</string>
+    <string name="tip_sample_7">After week two someone besides yourself should be facilitating the group then pass the facilitation around group, it is easy only 6 questions.</string>
 </resources>

@@ -1,6 +1,7 @@
 package org.shoalcreek;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Html;
@@ -42,12 +43,12 @@ public class TrainingAndTipsActivity extends AppCompatActivity {
 
         layouts = new int[]{
                 R.layout.tip_1,
-                R.layout.tip_1,
-                R.layout.tip_1,
-                R.layout.tip_1,
-                R.layout.tip_1,
-                R.layout.tip_1,
-                R.layout.tip_1
+                R.layout.tip_2,
+                R.layout.tip_3,
+                R.layout.tip_4,
+                R.layout.tip_5,
+                R.layout.tip_6,
+                R.layout.tip_7
         };
 
         addBottomDots(0);
@@ -59,7 +60,7 @@ public class TrainingAndTipsActivity extends AppCompatActivity {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //transition
+                transitionFromActivity();
             }
         });
 
@@ -71,11 +72,16 @@ public class TrainingAndTipsActivity extends AppCompatActivity {
                     // move to next screen
                     viewPager.setCurrentItem(current);
                 } else {
-                    //transition
+                    transitionFromActivity();
                 }
             }
 
         });
+    }
+
+    private void transitionFromActivity(){
+
+        startActivity( new Intent( TrainingAndTipsActivity.this, MenuListActivity.class));
     }
 
     private void addBottomDots(int currentPage) {
@@ -86,16 +92,17 @@ public class TrainingAndTipsActivity extends AppCompatActivity {
         int[] colorsInactive = getResources().getIntArray(R.array.active);
 
         dotsLayout.removeAllViews();
+
         for (int i = 0; i < dots.length; i++) {
             dots[i] = new TextView(this);
             dots[i].setText(fromHtml("&#8226;"));
             dots[i].setTextSize(35);
-            dots[i].setTextColor(colorsInactive[currentPage]);
+            dots[i].setTextColor(colorsInactive[2]);
             dotsLayout.addView(dots[i]);
         }
 
         if (dots.length > 0)
-            dots[currentPage].setTextColor(colorsActive[currentPage]);
+            dots[currentPage].setTextColor(colorsActive[1]);
     }
 
     public class MyViewPagerAdapter extends PagerAdapter {
