@@ -11,7 +11,7 @@
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/banner">
+        android:background="@drawable/header_image">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:gravity="center_vertical"
                 android:text="Roy Moran"
                 android:textAllCaps="false"
-                android:textColor="#fff"
+                android:textColor="#a6aff1"
                 android:textSize="22sp"/>
         </LinearLayout>
     </RelativeLayout>
@@ -52,7 +52,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dashboard"
+            android:text="Home"
             android:drawableLeft="@drawable/dashboard_icon"
             android:textAllCaps="false"
             android:drawablePadding="16dp"
