@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ReadingPlansActivity extends AppCompatActivity {
 
-    private ScripturesAdapter adapter;
+    private ReadingPlansViewAdapter adapter;
     private List<SpecialExpandModel> models;
     private RecyclerView recyclerView;
 
@@ -123,7 +123,7 @@ public class ReadingPlansActivity extends AppCompatActivity {
         models.add(model10);
 
 
-        adapter = new ScripturesAdapter(recyclerView, models);
+        adapter = new ReadingPlansViewAdapter(recyclerView, models);
 
         recyclerView.setAdapter(adapter);
 

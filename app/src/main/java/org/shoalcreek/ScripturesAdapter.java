@@ -13,11 +13,11 @@ import java.util.List;
 
 public class ScripturesAdapter extends RecyclerView.Adapter<ScripturesAdapter.ViewHolder>{
 
-    private List<SpecialExpandModel> data;
+    private List<String> data;
     private RecyclerView recyclerView;
 
 
-    public ScripturesAdapter(RecyclerView recyclerView, List<SpecialExpandModel> models) {
+    public ScripturesAdapter(RecyclerView recyclerView, List<String> models) {
         this.recyclerView = recyclerView;
         this.data = models;
     }
@@ -33,7 +33,7 @@ public class ScripturesAdapter extends RecyclerView.Adapter<ScripturesAdapter.Vi
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        holder.verseOfScripture.setText(data.get(position).getQuestion());
+        holder.verseOfScripture.setText(data.get(position));
 
         holder.verseOfScripture.setMovementMethod(LinkMovementMethod.getInstance());
 
