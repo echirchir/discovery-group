@@ -10,10 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ReadingPlansActivity"
+            android:label="@string/title_activity_reading_plans"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuListActivity" />
+        </activity>
+        <activity
             android:name=".DiscoveryProcessActivity"
             android:label="@string/title_activity_discovery_process"
             android:theme="@style/AppTheme.NoActionBar">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuListActivity" />

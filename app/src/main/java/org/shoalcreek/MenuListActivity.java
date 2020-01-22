@@ -37,6 +37,7 @@ public class MenuListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                startActivity( new Intent( MenuListActivity.this, ReadingPlansActivity.class));
             }
         });
 
