@@ -1,5 +1,7 @@
 package org.shoalcreek;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,11 +33,21 @@ public class ScripturesAdapter extends RecyclerView.Adapter<ScripturesAdapter.Vi
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
 
         holder.verseOfScripture.setText(data.get(position));
 
         holder.verseOfScripture.setMovementMethod(LinkMovementMethod.getInstance());
+
+        holder.verseOfScripture.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(""));
+
+            }
+        });
 
     }
     @Override

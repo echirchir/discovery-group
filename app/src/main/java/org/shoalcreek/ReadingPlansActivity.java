@@ -41,6 +41,7 @@ public class ReadingPlansActivity extends AppCompatActivity {
         model1.setQuestion("Quick path through the New Testament");
 
         List<String> answers1 = new ArrayList<>();
+
         answers1.add(getString(R.string.link_1));
         answers1.add(getString(R.string.link_2));
         answers1.add(getString(R.string.link_3));
