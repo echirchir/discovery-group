@@ -1,11 +1,13 @@
 package org.shoalcreek;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -15,11 +17,13 @@ public class ReadingPlansViewAdapter extends RecyclerView.Adapter<ReadingPlansVi
     private List<SpecialExpandModel> data;
     private RecyclerView recyclerView;
     private int lastExpandedCardPosition;
+    private Context context;
 
 
-    public ReadingPlansViewAdapter(RecyclerView recyclerView, List<SpecialExpandModel> models) {
+    public ReadingPlansViewAdapter(RecyclerView recyclerView, List<SpecialExpandModel> models, Context context) {
         this.recyclerView = recyclerView;
         this.data = models;
+        this.context = context;
     }
 
     @NonNull
@@ -35,13 +39,15 @@ public class ReadingPlansViewAdapter extends RecyclerView.Adapter<ReadingPlansVi
 
         holder.headTextView.setText(data.get(position).getQuestion());
 
-        //setup the recyclerview data here;
-
         List<String> verses = data.get(position).getAnswer();
 
         ScripturesAdapter adapter = new ScripturesAdapter(holder.specialRecyclerView, verses);
 
         holder.specialRecyclerView.setAdapter(adapter);
+
+        holder.specialRecyclerView.setLayoutManager(new LinearLayoutManager(context));
+        holder.specialRecyclerView.setHasFixedSize(true);
+
         adapter.notifyDataSetChanged();
 
         if(data.get(position).isExpanded()){

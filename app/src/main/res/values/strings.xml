@@ -36,4 +36,100 @@
     <string name="tip_sample_7">After week two someone besides yourself should be facilitating the group then pass the facilitation around group, it is easy only 6 questions.</string>
     <string name="title_activity_discovery_process">Discovery Process</string>
     <string name="title_activity_reading_plans">Reading Plans</string>
+
+    <string name="link_1"><a href="https://www.biblegateway.com/passage/?search=Genesis+1&amp;version=NIV">John 1:1-14</a></string>
+    <string name="link_2"><a href="https://www.biblegateway.com/passage/?search=Genesis+3%3A+1-19&amp;version=NIV">Gen 3:1-19</a></string>
+    <string name="link_3"><a href="https://www.biblegateway.com/passage/?search=1+John+1%3A5-10&amp;version=NIV">1 John 1:5-10</a></string>
+    <string name="link_4"><a href="https://www.biblegateway.com/passage/?search=Luke+5%3A17-26&amp;version=NIV">Luke 5:17-26</a></string>
+    <string name="link_5"><a href="https://www.biblegateway.com/passage/?search=John+3%3A1-21&amp;version=NIV">John 3:1-21</a></string>
+    <string name="link_6"><a href="https://www.biblegateway.com/passage/?search=Luke+23%3A32-24%3A8&amp;version=NIV">Luke 23:32-24:8</a></string>
+    <string name="link_7"><a href="https://www.biblegateway.com/passage/?search=Luke+24%3A44-49&amp;version=NIV">Luke 24:44-49</a></string>
+    <string name="link_8"><a href="https://www.biblegateway.com/passage/?search=Acts+2%3A29-41&amp;version=NIV">Acts 2:29-41</a></string>
+    <string name="link_9"><a href="https://www.biblegateway.com/passage/?search=Romans+5%3A1-11&amp;version=NIV">Romans 5:1-11</a></string>
+    <string name="link_10"><a href="https://www.biblegateway.com/passage/?search=Galatians+5%3A13-26&amp;version=NIV">Galatians 5:13-26</a></string>
+    <string name="link_11"><a href="https://www.biblegateway.com/passage/?search=Matthew+28%3A16-20&amp;version=NIV">Matthew 28:16-20</a></string>
+
+    <string name="link_12"><a href="https://www.biblegateway.com/passage/?search=Genesis+1&amp;version=NIV">Matthew 28:16-20</a></string>
+    <string name="link_13"><a href="https://www.biblegateway.com/passage/?search=Genesis+3%3A+1-19&amp;version=NIV">Genesis 3:1-24</a></string>
+    <string name="link_14"><a href="https://www.biblegateway.com/passage/?search=Genesis+6%3A9-22&amp;version=NLT">Genesis 6:9-22</a></string>
+    <string name="link_15"><a href="https://www.biblegateway.com/passage/?search=Exodus+20%3A1-21&amp;version=NLT">Exodus 20:1-21</a></string>
+    <string name="link_16"><a href="https://www.biblegateway.com/passage/?search=Leviticus+4%3A1-7&amp;version=NIV">Leviticus 4:1-35</a></string>
+    <string name="link_17"><a href="https://www.biblegateway.com/passage/?search=Isaiah+53&amp;version=NLT">Isaiah 53</a></string>
+    <string name="link_18"><a href="https://www.biblegateway.com/passage/?search=Hosea+3&amp;version=NIV">Hosea 3:1-5</a></string>
+    <string name="link_19"><a href="https://www.biblegateway.com/passage/?search=Luke+2%3A1-20&amp;version=NIV">Luke 1:26-38, 2:1-20</a></string>
+    <string name="link_20"><a href="https://www.biblegateway.com/passage/?search=Luke+5%3A17-26&amp;version=NLT">Luke 5:17-26</a></string>
+
+    <string name="link_21"><a href="https://www.biblegateway.com/passage/?search=John+3%3A1-18&amp;version=NIV">John 3:1-21</a></string>
+    <string name="link_22"><a href="https://www.biblegateway.com/passage/?search=Luke+15%3A11-32&amp;version=NLT">Luke 15:11-32</a></string>
+    <string name="link_23"><a href="https://www.biblegateway.com/passage/?search=Luke+18%3A18-25&amp;version=NIV">Luke 18:18-30</a></string>
+    <string name="link_24"><a href="https://www.biblegateway.com/passage/?search=John+11%3A38-44&amp;version=NIV">John 11:17-44</a></string>
+    <string name="link_25"><a href="https://www.biblegateway.com/passage/?search=Luke+24%3A36-49&amp;version=NIV">Luke 24:36-53</a></string>
+    <string name="link_26"><a href="https://www.biblegateway.com/passage/?search=Romans+5%3A1-11&amp;version=NLT">Romans 5:1-11</a></string>
+    <string name="link_27"><a href="https://www.biblegateway.com/passage/?search=Acts+1%3A1-11&amp;version=NLT">Acts 1:1-11</a></string>
+    <string name="link_28"><a href="https://www.biblegateway.com/passage/?search=Acts+2%3A29-38&amp;version=NLT">Acts 2:29-38</a></string>
+
+    <string name="link_29"><a href="https://www.biblegateway.com/passage/?search=Mark+7%3A17-23&amp;version=NLT">Mark 7:17-23</a></string>
+    <string name="link_30"><a href="https://www.biblegateway.com/passage/?search=Luke+9%3A23-25&amp;version=NIV">Luke 9:21-25</a></string>
+    <string name="link_31"><a href="https://www.biblegateway.com/passage/?search=Luke+18%3A9-14&amp;version=NLT">Luke 18:9-14</a></string>
+    <string name="link_32"><a href="https://www.biblegateway.com/passage/?search=Ephesians+2%3A1-10&amp;version=NLT">Ephesians 2:1-10</a></string>
+    <string name="link_33"><a href="https://www.biblegateway.com/passage/?search=1+John+2%3A1-6&amp;version=NLT">1 John 2:1-6</a></string>
+    <string name="link_34"><a href="https://www.biblegateway.com/passage/?search=Psalm+119%3A24-33&amp;version=NIV">Psalm 119:1-8</a></string>
+    <string name="link_35"><a href="https://www.biblegateway.com/passage/?search=Romans+12%3A1-2&amp;version=NLT">Romans 12:1-2</a></string>
+    <string name="link_36"><a href="https://www.biblegateway.com/passage/?search=Proverbs+3%3A5-6&amp;version=NLT">Proverbs 3:5-6</a></string>
+    <string name="link_37"><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+6%3A12-20&amp;version=NLT">1 Corinthians 6:12-20</a></string>
+
+    <string name="link_38"><a href="https://www.biblegateway.com/passage/?search=Matthew+28%3A16-20&amp;version=NIV">Matthew 28:18-20</a></string>
+    <string name="link_39"><a href="https://www.biblegateway.com/passage/?search=2+Corinthians+5%3A16-21&amp;version=NIV">2 Corinthians 5:11-21</a></string>
+    <string name="link_40"><a href="https://www.biblegateway.com/passage/?search=Matthew+5%3A13-16&amp;version=NLT">Matthew 5:13-16</a></string>
+    <string name="link_41"><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+9%3A19-23&amp;version=NLT">1 Corinthians 9:19-23</a></string>
+    <string name="link_42"><a href="https://www.biblegateway.com/passage/?search=Luke+10%3A1-11&amp;version=NIV">Luke 10:1-10</a></string>
+    <string name="link_43"><a href="https://www.biblegateway.com/passage/?search=Acts+1%3A6-8&amp;version=NLT">Acts 1:6-8</a></string>
+    <string name="link_44"><a href="https://www.biblegateway.com/passage/?search=John+4%3A27-35&amp;version=NIV">John 4:27-37</a></string>
+    <string name="link_45"><a href="https://www.biblegateway.com/passage/?search=Luke+19%3A1-10&amp;version=NLT">Luke 19:1-10</a></string>
+    <string name="link_46"><a href="https://www.biblegateway.com/passage/?search=Matthew+9%3A35-38&amp;version=NLT">Matthew 9:35-38</a></string>
+
+    <string name="link_47"><a href="https://www.biblegateway.com/passage/?search=Mark+2%3A1-12&amp;version=NLT">Mark 2:1-12</a></string>
+    <string name="link_48"><a href="https://www.biblegateway.com/passage/?search=Hebrews+10%3A24-25&amp;version=NLT">Hebrews 10:24-25</a></string>
+    <string name="link_49"><a href="https://www.biblegateway.com/passage/?search=Philippians+2%3A3-8&amp;version=NLT">Philippians 2:3-8</a></string>
+    <string name="link_50"><a href="https://www.biblegateway.com/passage/?search=Ecclesiastes+4%3A9-10&amp;version=NLT">Ecclesiastes 4:9-10</a></string>
+    <string name="link_51"><a href="https://www.biblegateway.com/passage/?search=Acts+2%3A41-47&amp;version=NLT">Acts 2:41-47</a></string>
+    <string name="link_52"><a href="https://www.biblegateway.com/passage/?search=John+13%3A34-35&amp;version=NLT">John 13:34-35</a></string>
+    <string name="link_53"><a href="https://www.biblegateway.com/passage/?search=1+Peter+1%3A13-23&amp;version=NIV">1 Peter 1:22, 3:8, 4:9, 5:5</a></string>
+    <string name="link_54"><a href="https://www.biblegateway.com/passage/?search=Ephesians+4%3A20-29&amp;version=NIV">Ephesians 4:2, 4:32, 5:21</a></string>
+    <string name="link_55"><a href="https://www.biblegateway.com/passage/?search=Romans+12%3A9-21&amp;version=NLT">Romans 12:9-21</a></string>
+
+    <string name="link_56"><a href="https://www.biblegateway.com/passage/?search=Luke+12%3A13-21&amp;version=NLT">Luke 12:13-21</a></string>
+    <string name="link_57"><a href="https://www.biblegateway.com/passage/?search=Luke+8%3A4-15&amp;version=NLT">Luke 8:4-15</a></string>
+    <string name="link_58"><a href="https://www.biblegateway.com/passage/?search=Romans+12%3A3-8&amp;version=NLT">Romans 12:3-8</a></string>
+    <string name="link_59"><a href="https://www.biblegateway.com/passage/?search=Luke+19%3A10-27&amp;version=NIV">Luke 19:11-28</a></string>
+    <string name="link_60"><a href="https://www.biblegateway.com/passage/?search=1+Peter+4%3A7-11&amp;version=NLT">1 Peter 4:7-11</a></string>
+    <string name="link_61"><a href="https://www.biblegateway.com/passage/?search=Galatians+3%3A26-29&amp;version=NLT">Galatians 3:26-29</a></string>
+    <string name="link_62"><a href="https://www.biblegateway.com/passage/?search=1+Peter+2%3A1-9&amp;version=NLT">1 Peter 2:1-9</a></string>
+    <string name="link_63"><a href="https://www.biblegateway.com/passage/?search=Matthew+28%3A16-20&amp;version=NLT">Matthew 28:16-20</a></string>
+    <string name="link_64"><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+12%3A1-12&amp;version=NIV">Matthew 23:14-30</a></string>
+
+    <string name="link_65"><a href="https://www.biblegateway.com/passage/?search=Romans+8%3A31-32&amp;version=NIV">Romans 8:32</a></string>
+    <string name="link_66"><a href="https://www.biblegateway.com/passage/?search=Matthew+6%3A19-24&amp;version=NIV">Matthew 6:19-34</a></string>
+    <string name="link_67"><a href="https://www.biblegateway.com/passage/?search=Luke+18%3A18-25&amp;version=NIV">Luke 18:18-30</a></string>
+    <string name="link_68"><a href="https://www.biblegateway.com/passage/?search=2+Corinthians+9%3A6-15&amp;version=NLT">2 Corinthians 9:6-15</a></string>
+    <string name="link_69"><a href="https://www.biblegateway.com/passage/?search=Ecclesiastes+2%3A1-11&amp;version=NLT">Ecclesiastes 2:1-11</a></string>
+    <string name="link_70"><a href="https://www.biblegateway.com/passage/?search=Proverbs+6%3A6-11&amp;version=NLT">Proverbs 6:6-11</a></string>
+    <string name="link_71"><a href="https://www.biblegateway.com/passage/?search=1+Timothy+6%3A6-10&amp;version=NLT">1 Timothy 6:6-10</a></string>
+    <string name="link_72"><a href="https://www.biblegateway.com/passage/?search=Mark+12%3A41-44&amp;version=NIV">Mark 12:41-43</a></string>
+    <string name="link_73"><a href="https://www.biblegateway.com/passage/?search=2+Corinthians+8%3A1-7+&amp;version=NIV">2 Corinthians 8:1-15</a></string>
+
+    <string name="link_74"><a href="https://www.biblegateway.com/passage/?search=Matthew+28%3A16-20&amp;version=NLT">Matthew 28:16-20</a></string>
+    <string name="link_75"><a href="https://www.biblegateway.com/passage/?search=Luke+14%3A25-33&amp;version=NIV">Luke 14:25-34</a></string>
+    <string name="link_76"><a href="https://www.biblegateway.com/passage/?search=2+Timothy+2%3A1-7&amp;version=NIV">2 Timothy 2:1-10</a></string>
+    <string name="link_77"><a href="https://www.biblegateway.com/passage/?search=John+15%3A1-8&amp;version=NLT">John 15:1-17</a></string>
+    <string name="link_78"><a href="https://www.biblegateway.com/passage/?search=Matthew+5%3A3-12&amp;version=NLT">Matthew 5:1-16</a></string>
+    <string name="link_79"><a href="https://www.biblegateway.com/passage/?search=2+Corinthians+5%3A16-20&amp;version=NLT">2 Corinthians 5:16-20</a></string>
+    <string name="link_80"><a href="https://www.biblegateway.com/passage/?search=Hebrews+5%3A11-14&amp;version=NLT">Hebrews 5:11-14</a></string>
+    <string name="link_81"><a href="https://www.biblegateway.com/passage/?search=Matthew+7%3A21-27&amp;version=NLT">Matthew 7:15-28</a></string>
+
+    <string name="link_82"><a href="http://dgapp.org/assets/marriage.pdf">Marriage - 10 Weeks</a></string>
+    <string name="link_83"><a href="http://dgapp.org/assets/parenting.pdf">Parenting - 10 Weeks</a></string>
+
+
+
 </resources>
