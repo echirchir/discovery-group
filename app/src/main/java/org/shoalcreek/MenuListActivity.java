@@ -45,6 +45,9 @@ public class MenuListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                emailIntent.setType("text/plain");
+                startActivity(emailIntent);
             }
         });
 
