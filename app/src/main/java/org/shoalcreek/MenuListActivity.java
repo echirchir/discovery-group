@@ -29,7 +29,7 @@ public class MenuListActivity extends AppCompatActivity {
         findViewById(R.id.discovery_process).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity( new Intent( MenuListActivity.this, DiscoveryProcessActivity.class));
             }
         });
 

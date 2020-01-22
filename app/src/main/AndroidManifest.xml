@@ -10,14 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TrainingAndTipsActivity"
-            android:label="@string/title_activity_training_and_tips"
+            android:name=".DiscoveryProcessActivity"
+            android:label="@string/title_activity_discovery_process"
             android:theme="@style/AppTheme.NoActionBar">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuListActivity" />
-
+        </activity>
+        <activity
+            android:name=".TrainingAndTipsActivity"
+            android:label="@string/title_activity_training_and_tips"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuListActivity" />
         </activity>
         <activity
             android:name=".MenuListActivity"

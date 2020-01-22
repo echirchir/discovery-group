@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:elevation="@dimen/cardview_default_elevation"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/head_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            tools:text="Tap to expand" />
+    </androidx.cardview.widget.CardView>
+
+    <org.shoalcreek.ExpandableLinearLayout
+        android:id="@+id/expandableView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expandDuration="500">
+
+        <TextView
+            android:id="@+id/expanded_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimary"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            tools:text="This is sample text" />
+    </org.shoalcreek.ExpandableLinearLayout>
+</LinearLayout>
