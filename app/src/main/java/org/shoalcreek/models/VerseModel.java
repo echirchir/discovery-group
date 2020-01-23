@@ -1,4 +1,4 @@
-package org.shoalcreek;
+package org.shoalcreek.models;
 
 public class VerseModel {
 

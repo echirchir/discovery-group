@@ -1,4 +1,4 @@
-package org.shoalcreek;
+package org.shoalcreek.activities;
 
 import android.os.Bundle;
 
@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import org.shoalcreek.models.ExpandModel;
+import org.shoalcreek.R;
+import org.shoalcreek.adapters.RecyclerViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

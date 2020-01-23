@@ -1,4 +1,4 @@
-package org.shoalcreek;
+package org.shoalcreek.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,11 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import org.shoalcreek.R;
+
 public class MenuListActivity extends AppCompatActivity {
+
+    private String targetEmail = "info@shoalcreek.org";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +50,9 @@ public class MenuListActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                String[] recipients={targetEmail};
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, recipients);
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT,"Discovery Group Feedback");
                 emailIntent.setType("text/plain");
                 startActivity(emailIntent);
             }

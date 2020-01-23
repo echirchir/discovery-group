@@ -1,4 +1,4 @@
-package org.shoalcreek;
+package org.shoalcreek.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
+import org.shoalcreek.R;
 
 
 public class HomeScreenActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package org.shoalcreek;
+package org.shoalcreek.models;
 
 import java.util.List;
 
@@ -6,7 +6,8 @@ public class SpecialExpandModel {
 
     private boolean expanded;
     private String question;
-    private List<String> answer;
+    private List<String> answers;
+    private List<String> urls;
 
     public String getQuestion() {
         return question;
@@ -16,12 +17,20 @@ public class SpecialExpandModel {
         this.question = question;
     }
 
-    public List<String> getAnswer() {
-        return answer;
+    public List<String> getAnswers() {
+        return answers;
     }
 
-    public void setAnswer(List<String> answer) {
-        this.answer = answer;
+    public void setAnswers(List<String> answers) {
+        this.answers = answers;
+    }
+
+    public List<String> getUrls() {
+        return urls;
+    }
+
+    public void setUrls(List<String> urls) {
+        this.urls = urls;
     }
 
     public void setExpanded(boolean expanded) {

@@ -1,4 +1,4 @@
-package org.shoalcreek;
+package org.shoalcreek.adapters;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import org.shoalcreek.R;
 
 import java.util.List;
 

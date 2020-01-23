@@ -1,32 +1,45 @@
-package org.shoalcreek;
+package org.shoalcreek.adapters;
 
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import org.shoalcreek.helpers.ExpandListener;
+import org.shoalcreek.R;
+import org.shoalcreek.helpers.RecyclerItemClickListener;
+import org.shoalcreek.helpers.RecyclerViewItemDecorator;
+import org.shoalcreek.models.SpecialExpandModel;
+import org.shoalcreek.custom.ExpandableLinearLayout;
 
 import java.util.List;
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
+public class ReadingPlansViewAdapter extends RecyclerView.Adapter<ReadingPlansViewAdapter.ViewHolder>{
 
-    private List<ExpandModel> data;
+    private List<SpecialExpandModel> data;
     private RecyclerView recyclerView;
     private int lastExpandedCardPosition;
+    private Context context;
 
 
-    public RecyclerViewAdapter(RecyclerView recyclerView, List<ExpandModel> models) {
+    public ReadingPlansViewAdapter(RecyclerView recyclerView, List<SpecialExpandModel> models, Context context) {
         this.recyclerView = recyclerView;
         this.data = models;
+        this.context = context;
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View v = inflater.inflate(R.layout.card_item, parent, false);
+        View v = inflater.inflate(R.layout.special_card_item, parent, false);
         return new ViewHolder(v);
     }
 
@@ -34,7 +47,35 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
         holder.headTextView.setText(data.get(position).getQuestion());
-        holder.expandedTextView.setText(data.get(position).getAnswer());
+
+        final List<String> verses = data.get(position).getAnswers();
+        final List<String> urls = data.get(position).getUrls();
+
+        ScripturesAdapter adapter = new ScripturesAdapter(holder.specialRecyclerView, verses);
+
+        holder.specialRecyclerView.setAdapter(adapter);
+
+        holder.specialRecyclerView.setLayoutManager(new LinearLayoutManager(context));
+        holder.specialRecyclerView.setHasFixedSize(true);
+        holder.specialRecyclerView.addItemDecoration( new RecyclerViewItemDecorator(context, RecyclerViewItemDecorator.VERTICAL_LIST));
+
+        adapter.notifyDataSetChanged();
+
+        holder.specialRecyclerView.addOnItemTouchListener( new RecyclerItemClickListener(context, holder.specialRecyclerView, new RecyclerItemClickListener.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+
+                Uri uri = Uri.parse(urls.get(position));
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                context.startActivity(intent);
+
+            }
+
+            @Override
+            public void onItemLongClick(View view, int position) {
+
+            }
+        }));
 
         if(data.get(position).isExpanded()){
             holder.expandableView.setVisibility(View.VISIBLE);
@@ -50,12 +91,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return data.size();
     }
 
-    public void setData(List<ExpandModel> data) {
+    public void setData(List<SpecialExpandModel> data) {
         this.data = data;
     }
 
     public void addItem(int i) {
-        data.add(i, new ExpandModel());
+        data.add(i, new SpecialExpandModel());
         if(i <= lastExpandedCardPosition)
             lastExpandedCardPosition++;
         notifyDataSetChanged();
@@ -67,9 +108,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
+
         ExpandableLinearLayout expandableView;
         TextView headTextView;
-        TextView expandedTextView;
+        RecyclerView specialRecyclerView;
 
         ExpandListener expandListener = new ExpandListener() {
             @Override
@@ -94,9 +136,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         ViewHolder(View itemView) {
             super(itemView);
             headTextView = itemView.findViewById(R.id.head_textview);
-            expandedTextView = itemView.findViewById(R.id.expanded_textview);
+            specialRecyclerView = itemView.findViewById(R.id.special_recycler_view);
             expandableView = itemView.findViewById(R.id.expandableView);
-            //expandableView.setExpandListener(expandListener);
             initializeClicks();
         }
 

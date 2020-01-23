@@ -24,7 +24,7 @@
             tools:text="Tap to expand" />
     </androidx.cardview.widget.CardView>
 
-    <org.shoalcreek.ExpandableLinearLayout
+    <org.shoalcreek.custom.ExpandableLinearLayout
         android:id="@+id/expandableView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,5 +35,5 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </org.shoalcreek.ExpandableLinearLayout>
+    </org.shoalcreek.custom.ExpandableLinearLayout>
 </LinearLayout>
