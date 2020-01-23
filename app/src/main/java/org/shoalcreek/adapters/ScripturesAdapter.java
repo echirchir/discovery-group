@@ -41,16 +41,6 @@ public class ScripturesAdapter extends RecyclerView.Adapter<ScripturesAdapter.Vi
 
         holder.verseOfScripture.setMovementMethod(LinkMovementMethod.getInstance());
 
-        holder.verseOfScripture.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(""));
-
-            }
-        });
-
     }
     @Override
     public int getItemCount() {

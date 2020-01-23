@@ -57,7 +57,6 @@ public class ReadingPlansViewAdapter extends RecyclerView.Adapter<ReadingPlansVi
 
         holder.specialRecyclerView.setLayoutManager(new LinearLayoutManager(context));
         holder.specialRecyclerView.setHasFixedSize(true);
-        holder.specialRecyclerView.addItemDecoration( new RecyclerViewItemDecorator(context, RecyclerViewItemDecorator.VERTICAL_LIST));
 
         adapter.notifyDataSetChanged();
 
