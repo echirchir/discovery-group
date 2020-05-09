@@ -1,4 +1,4 @@
-package org.shoalcreek.helpers;
+package org.newgeneration.helpers;
 
 public interface ExpandListener {
     void onExpandComplete();

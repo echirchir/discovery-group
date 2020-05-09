@@ -1,7 +1,5 @@
-package org.shoalcreek.adapters;
+package org.newgeneration.adapters;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.shoalcreek.R;
+import org.newgeneration.R;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.shoalcreek.models;
+package org.newgeneration.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

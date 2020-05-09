@@ -1,4 +1,4 @@
-package org.shoalcreek.custom;
+package org.newgeneration.custom;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.shoalcreek.R;
+import org.newgeneration.R;
 
 /**
  * LinearLayout that can expand and collapse

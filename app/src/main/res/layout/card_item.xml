@@ -25,25 +25,26 @@
             tools:text="Tap to expand" />
     </androidx.cardview.widget.CardView>
 
-    <org.shoalcreek.custom.ExpandableLinearLayout
+    <org.newgeneration.custom.ExpandableLinearLayout
         android:id="@+id/expandableView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:expandDuration="500">
 
         <TextView
             android:id="@+id/expanded_textview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_gravity="center_vertical|start"
             android:gravity="start"
             android:padding="20dp"
+            android:maxEms="15"
             android:textColor="@color/colorPrimary"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
             android:textSize="16sp"
             tools:text="This is sample text" />
-    </org.shoalcreek.custom.ExpandableLinearLayout>
+    </org.newgeneration.custom.ExpandableLinearLayout>
 </LinearLayout>

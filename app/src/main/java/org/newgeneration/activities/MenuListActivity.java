@@ -1,4 +1,4 @@
-package org.shoalcreek.activities;
+package org.newgeneration.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import org.shoalcreek.R;
+import org.newgeneration.R;
 
 public class MenuListActivity extends AppCompatActivity {
 

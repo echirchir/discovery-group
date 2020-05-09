@@ -1,4 +1,4 @@
-package org.shoalcreek.adapters;
+package org.newgeneration.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,12 +12,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.shoalcreek.helpers.ExpandListener;
-import org.shoalcreek.R;
-import org.shoalcreek.helpers.RecyclerItemClickListener;
-import org.shoalcreek.helpers.RecyclerViewItemDecorator;
-import org.shoalcreek.models.SpecialExpandModel;
-import org.shoalcreek.custom.ExpandableLinearLayout;
+import org.newgeneration.helpers.ExpandListener;
+import org.newgeneration.R;
+import org.newgeneration.helpers.RecyclerItemClickListener;
+import org.newgeneration.models.SpecialExpandModel;
+import org.newgeneration.custom.ExpandableLinearLayout;
 
 import java.util.List;
 

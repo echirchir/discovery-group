@@ -1,4 +1,4 @@
-package org.shoalcreek.models;
+package org.newgeneration.models;
 
 import java.util.List;
 

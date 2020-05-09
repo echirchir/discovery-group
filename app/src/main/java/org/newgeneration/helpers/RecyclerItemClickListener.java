@@ -1,4 +1,4 @@
-package org.shoalcreek.helpers;
+package org.newgeneration.helpers;
 
 import android.content.Context;
 import android.view.GestureDetector;

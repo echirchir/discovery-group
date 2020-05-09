@@ -92,17 +92,16 @@
                 android:textSize="14sp" />
 
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/discover"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/rectangle_3"
-                android:padding="16dp"
-                android:text="@string/discover_button"
-                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
                 android:textColor="#fff"
-                android:textSize="20sp" />
+                android:background="@drawable/rounded_button"
+                android:padding="12dp"
+                android:text="@string/discover_button"/>
 
             <TextView
                 android:layout_width="match_parent"

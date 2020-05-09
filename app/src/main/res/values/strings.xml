@@ -4,9 +4,9 @@
     <string name="title_activity_home_screen">Discovery Group</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="questions_discovery_process">* 7 questions of the discovery process</string>
-    <string name="coaching_tips">* Coaching tips on problem areas in groups</string>
-    <string name="bible_passages">* Bible passages lists for Discovery Groups</string>
+    <string name="questions_discovery_process">7 questions of the discovery process</string>
+    <string name="coaching_tips">Coaching tips on problem areas in groups</string>
+    <string name="bible_passages">Bible passages lists for Discovery Groups</string>
     <string name="welcome">Welcome,</string>
     <string name="disciple_maker">Disciple Maker!</string>
     <string name="discover_button">DISCOVER</string>

@@ -1,4 +1,4 @@
-package org.shoalcreek.adapters;
+package org.newgeneration.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,10 +8,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.shoalcreek.helpers.ExpandListener;
-import org.shoalcreek.models.ExpandModel;
-import org.shoalcreek.R;
-import org.shoalcreek.custom.ExpandableLinearLayout;
+import org.newgeneration.helpers.ExpandListener;
+import org.newgeneration.models.ExpandModel;
+import org.newgeneration.R;
+import org.newgeneration.custom.ExpandableLinearLayout;
 
 import java.util.List;
 

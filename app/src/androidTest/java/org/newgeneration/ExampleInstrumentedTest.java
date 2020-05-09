@@ -1,4 +1,4 @@
-package org.shoalcreek;
+package org.newgeneration;
 
 import android.content.Context;
 

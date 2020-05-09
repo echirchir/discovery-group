@@ -1,4 +1,4 @@
-package org.shoalcreek.activities;
+package org.newgeneration.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,7 +18,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import org.shoalcreek.R;
+import org.newgeneration.R;
 
 public class TrainingAndTipsActivity extends AppCompatActivity {
 

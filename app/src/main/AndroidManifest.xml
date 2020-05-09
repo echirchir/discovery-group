@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.shoalcreek">
+    package="org.newgeneration">
 
     <application
         android:allowBackup="true"
@@ -10,40 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.ReadingPlansActivity"
+            android:name="org.newgeneration.activities.ReadingPlansActivity"
             android:label="@string/title_activity_reading_plans"
             android:theme="@style/AppTheme.NoActionBar">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuListActivity" />
+                android:value="org.newgeneration.activities.MenuListActivity" />
         </activity>
         <activity
-            android:name=".activities.DiscoveryProcessActivity"
+            android:name="org.newgeneration.activities.DiscoveryProcessActivity"
             android:label="@string/title_activity_discovery_process"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuListActivity" />
+                android:value="org.newgeneration.activities.MenuListActivity" />
         </activity>
         <activity
-            android:name=".activities.TrainingAndTipsActivity"
+            android:name="org.newgeneration.activities.TrainingAndTipsActivity"
             android:label="@string/title_activity_training_and_tips"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuListActivity" />
+                android:value="org.newgeneration.activities.MenuListActivity" />
         </activity>
         <activity
-            android:name=".activities.MenuListActivity"
+            android:name="org.newgeneration.activities.MenuListActivity"
             android:label="@string/title_activity_menu_list"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.HomeScreenActivity" />
+                android:value="org.newgeneration.activities.HomeScreenActivity" />
         </activity>
         <activity
-            android:name=".activities.HomeScreenActivity"
+            android:name="org.newgeneration.activities.HomeScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/FullscreenTheme">

@@ -1,4 +1,4 @@
-package org.shoalcreek.activities;
+package org.newgeneration.activities;
 
 import android.os.Bundle;
 
@@ -6,9 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import org.shoalcreek.R;
-import org.shoalcreek.adapters.ReadingPlansViewAdapter;
-import org.shoalcreek.models.SpecialExpandModel;
+import org.newgeneration.R;
+import org.newgeneration.adapters.ReadingPlansViewAdapter;
+import org.newgeneration.models.SpecialExpandModel;
 
 import java.util.ArrayList;
 import java.util.List;

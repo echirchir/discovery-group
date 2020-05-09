@@ -1,4 +1,4 @@
-package org.shoalcreek.activities;
+package org.newgeneration.activities;
 
 import android.os.Bundle;
 
@@ -7,9 +7,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.shoalcreek.models.ExpandModel;
-import org.shoalcreek.R;
-import org.shoalcreek.adapters.RecyclerViewAdapter;
+import org.newgeneration.models.ExpandModel;
+import org.newgeneration.R;
+import org.newgeneration.adapters.RecyclerViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,8 +43,7 @@ public class DiscoveryProcessActivity extends AppCompatActivity {
 
         ExpandModel model1 = new ExpandModel();
         model1.setQuestion("How did you do with what you learned last week?");
-        model1.setAnswer(
-        "-How did you do with last week’s I will and sharing?\n"
+        model1.setAnswer("-How did you do with last week’s I will and sharing?\n"
             + "\n"
             + " \n"
             + "\n"
@@ -56,8 +55,7 @@ public class DiscoveryProcessActivity extends AppCompatActivity {
 
         ExpandModel model2 = new ExpandModel();
         model2.setQuestion("What are you thankful for?");
-        model2.setAnswer(
-        "An easy way to jump into the group.\n"
+        model2.setAnswer("An easy way to jump into the group.\n"
             + "\n"
             + "Call on someone by name, “Sara, what are you thankful for today?\n"
             + "\n"
