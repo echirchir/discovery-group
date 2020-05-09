@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import org.shoalcreek.R;
 import org.shoalcreek.adapters.ReadingPlansViewAdapter;
 import org.shoalcreek.models.SpecialExpandModel;
@@ -62,7 +61,7 @@ public class ReadingPlansActivity extends AppCompatActivity {
 
         model1.setAnswers(answers1);
 
-        urls1.add("https://www.biblegateway.com/passage/?search=Genesis+1&amp;version=NIV");
+        urls1.add("https://www.biblegateway.com/passage/?search=John+1%3A1-14&version=NIV");
         urls1.add("https://www.biblegateway.com/passage/?search=Genesis+3%3A+1-19&amp;version=NIV");
         urls1.add("https://www.biblegateway.com/passage/?search=1+John+1%3A5-10&amp;version=NIV");
         urls1.add("https://www.biblegateway.com/passage/?search=Luke+5%3A17-26&amp;version=NIV");

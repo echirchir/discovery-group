@@ -75,14 +75,10 @@ public class DiscoveryProcessActivity extends AppCompatActivity {
 
         ExpandModel model3 = new ExpandModel();
         model3.setQuestion("What is the biggest challenge you are facing today?");
-        model3.setAnswer(
-        "Authenticity is key to a community of Jesus\n"
+        model3.setAnswer("Authenticity is key to a community of Jesus\n"
             + "\n"
-            + "followers. This question helps people learn how to\n"
+            + "followers. This question helps people learn how to relate deeper.\n"
             + "\n"
-            + "relate deeper.\n"
-            + "\n"
-            + " \n"
             + "\n"
             + "Be careful though, this question can lead to time\n"
             + "\n"
