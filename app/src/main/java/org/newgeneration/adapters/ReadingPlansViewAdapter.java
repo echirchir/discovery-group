@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import org.newgeneration.activities.BibleVerseWebViewActivity;
 import org.newgeneration.helpers.ExpandListener;
 import org.newgeneration.R;
 import org.newgeneration.helpers.RecyclerItemClickListener;
@@ -63,10 +64,9 @@ public class ReadingPlansViewAdapter extends RecyclerView.Adapter<ReadingPlansVi
             @Override
             public void onItemClick(View view, int position) {
 
-                Uri uri = Uri.parse(urls.get(position));
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                Intent intent = new Intent(context, BibleVerseWebViewActivity.class);
+                intent.putExtra("url", urls.get(position));
                 context.startActivity(intent);
-
             }
 
             @Override

@@ -43,15 +43,15 @@ public class DiscoveryProcessActivity extends AppCompatActivity {
 
         ExpandModel model1 = new ExpandModel();
         model1.setQuestion("How did you do with what you learned last week?");
-        model1.setAnswer("-How did you do with last week’s I will and sharing?\n"
+        model1.setAnswer("How did you do with last week’s I will and sharing?\n"
             + "\n"
             + " \n"
             + "\n"
-            + "-With whom did you share last week’s lesson?\n"
+            + "With whom did you share last week’s lesson?\n"
             + "\n"
             + " \n"
             + "\n"
-            + "-How did you put into practice what you learned from last week’s lesson?");
+            + "How did you put into practice what you learned from last week’s lesson?");
 
         ExpandModel model2 = new ExpandModel();
         model2.setQuestion("What are you thankful for?");
@@ -95,19 +95,19 @@ public class DiscoveryProcessActivity extends AppCompatActivity {
         ExpandModel model5 = new ExpandModel();
         model5.setQuestion("What is God saying?");
         model5.setAnswer(
-        "-Read the designated passage aloud in 2 different versions if available.\n"
+        "Read the designated passage aloud in 2 different versions if available.\n"
             + "\n"
             + " \n"
             + "\n"
-            + "-Have one person re-tell the passage in their own words.\n"
+            + "Have one person re-tell the passage in their own words.\n"
             + "\n"
             + " \n"
             + "\n"
-            + " -You may want to appoint that person before you read.\n"
+            + " You may want to appoint that person before you read.\n"
             + "\n"
             + " \n"
             + "\n"
-            + " -Ask others to help add to what may have been missed or their insights");
+            + " Ask others to help add to what may have been missed or their insights");
 
         ExpandModel model6 = new ExpandModel();
         model6.setQuestion("If this is God speaking, what will you do about it?");

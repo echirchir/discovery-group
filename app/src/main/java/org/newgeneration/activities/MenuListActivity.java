@@ -25,7 +25,6 @@ public class MenuListActivity extends AppCompatActivity {
         findViewById(R.id.training_tips).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 startActivity( new Intent( MenuListActivity.this, TrainingAndTipsActivity.class));
             }
         });
